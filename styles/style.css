@@ -277,11 +277,12 @@
 
 .footer__column {
   display: flex;
+  flex-direction: column;
 }
 
 .footer__column_content_copyright {
   flex-basis: 711px;
-  position: relative;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -294,9 +295,6 @@
   font-size: 18px;
   font-weight: normal;
   margin: 18px 0;
-  position: absolute;
-  left: 0;
-  bottom: 0;
 }
 
 .footer__column-heading {
@@ -325,12 +323,4 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-}
-
-.footer__column_content_social {
-  flex-direction: column;
-}
-
-.footer__column_content_info {
-  flex-direction: column;
 }
