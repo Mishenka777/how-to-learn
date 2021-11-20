@@ -1,7 +1,7 @@
 .cards__item {
-  width: 240px;
-  text-align: center;
+  flex-basis: min-content;
   margin: 0;
+  text-align: center;
 }
 
 .cards__item:nth-child(3n+2) {

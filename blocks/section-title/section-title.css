@@ -1,6 +1,7 @@
 .section-title {
   line-height: 1.15;
   font-size: 60px;
+  white-space: nowrap;
   font-weight: bold;
   display: flex;
   justify-content: center;
